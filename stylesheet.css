@@ -1,0 +1,49 @@
+ p {
+    color: red;
+  }
+  div {
+    height: 678px;
+    width: 250px;
+    border-radius: 5px;
+    position: fixed;
+    background-color: rgba(80, 80, 92, 0.95);
+    margin-top: -110px;
+    margin-left: -10px;
+    padding: 20px 20px 20px 0px;
+    background-attachment: fixed;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+    background: rgba(64, 100, 255, .5);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  body {
+    background: url("file:///Users/tugwitt/Desktop/Yosemite3.jpg");
+    background-size: 1300px 820px;
+    margin-bottom: 80%;
+    background-attachment: fixed;
+  }
+  img {
+    max-width: 1250px;
+    max-height: 700px;
+    position: absolute;
+  }
+  #one {
+    background-color: #FF0000;
+  }
+  #two {
+    background-color: #0000FF;
+  }
+  #three {
+    background-color: #FFD700;
+  }
+  #four {
+    background-color: #308014;
+  }

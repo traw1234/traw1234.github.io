@@ -1,14 +1,15 @@
  p {
-    color: red;
+    color: white;
+    font-family: sans-serif;
+
   }
   div {
-    height: 678px;
+    height: 100px;
     width: 250px;
     border-radius: 5px;
     position: fixed;
-    background-color: rgba(80, 80, 92, 0.95);
-    margin-top: -110px;
-    margin-left: -10px;
+    margin-top: (50vh);
+    margin-left: (50vh);
     padding: 20px 20px 20px 0px;
     background-attachment: fixed;
   }
@@ -26,8 +27,8 @@
   }
   body {
     background: url("background.jpeg");
-    background-size: 1300px 820px;
-    margin-bottom: 80%;
+    background-size: 600 200px;
+    margin-bottom: 10%;
     background-attachment: fixed;
   }
   img {
@@ -35,15 +36,39 @@
     max-height: 700px;
     position: absolute;
   }
-  #one {
-    background-color: #FF0000;
+  .dialog-loading-wrapper {
+    background: none  0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    position: fixed;
+    top: 50%;
+    width: 100px;
+    z-index: 9999999;
   }
-  #two {
-    background-color: #0000FF;
+  .dialog-loading-icon {
+    background-color: rgba(34,41,51,.7); !important;
+    border-radius: 13px;
+    display: block;
+    height: 50px;
+    line-height: 100px;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    width: 10000px;
   }
-  #three {
-    background-color: #FFD700;
+  .circle-div {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(80, 80, 92, 0.85);
+    border-radius: 30px;
   }
-  #four {
-    background-color: #308014;
+  .button {
+    margin-bottom: 100;
+    margin-right: 100;
+    height: 50px;
+    width: 50px;
+    color: white;
   }

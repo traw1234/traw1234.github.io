@@ -1,18 +1,22 @@
  p {
-    color: white;
-    font-family: sans-serif;
+    color: black;
+    font-family: "Monserrat";
 
   }
-  div {
-    height: 100px;
-    width: 250px;
-    border-radius: 5px;
-    position: fixed;
-    margin-top: (50vh);
-    margin-left: (50vh);
-    padding: 20px 20px 20px 0px;
-    background-attachment: fixed;
+
+a {
+  color: black;
+
   }
+  
+div {
+    padding: 20px 20px 20px 0px;
+    background-color: rgba(61,61,58,.5);
+    border-radius: 30px;
+    border-color: black;
+    height:150px;
+  }
+
   h1 {
     color: white;
     text-align: center;
@@ -24,51 +28,4 @@
     margin-top: 10px;
     margin-right: 400px;
     margin-left: 400px;
-  }
-  body {
-    background: url("background.jpeg");
-    background-size: 600 200px;
-    margin-bottom: 10%;
-    background-attachment: fixed;
-  }
-  img {
-    max-width: 1250px;
-    max-height: 700px;
-    position: absolute;
-  }
-  .dialog-loading-wrapper {
-    background: none  0 0 rgba(0, 0, 0, 0);
-    border: 0 none;
-    height: 100px;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: -50px;
-    position: fixed;
-    top: 50%;
-    width: 100px;
-    z-index: 9999999;
-  }
-  .dialog-loading-icon {
-    background-color: rgba(34,41,51,.7); !important;
-    border-radius: 13px;
-    display: block;
-    height: 50px;
-    line-height: 100px;
-    margin: 0;
-    padding: 1px;
-    text-align: center;
-    width: 10000px;
-  }
-  .circle-div {
-    height: 50px;
-    width: 50px;
-    background-color: rgba(80, 80, 92, 0.85);
-    border-radius: 30px;
-  }
-  .button {
-    margin-bottom: 100;
-    margin-right: 100;
-    height: 50px;
-    width: 50px;
-    color: white;
   }
